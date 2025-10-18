@@ -1,6 +1,6 @@
 const express = require("express");
-const cors = require("cors"); // Đã sửa lỗi
-const ApiError = require("./api-error"); // Tên file là api-error.js nằm trong thư mục app
+const cors = require("cors");
+const ApiError = require("./app/api-error"); // <<< Sửa đường dẫn ở đây!
 
 const app = express();
 
